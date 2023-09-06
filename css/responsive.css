@@ -22,3 +22,61 @@
     
 }  
 
+/* for tablets */
+
+@media screen and (min-width: 576px) and (max-width: 992px ){
+    nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-logo {
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    *{
+        margin: auto 10px;
+        background-color: lightblue;
+
+    }
+    
+}   
+
+/* for making responsive banner  */
+
+/* for mobile */
+
+@media screen and (max-width: 576px) {
+    .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+    }
+
+}  
+
+/* for tablets */
+
+@media screen and (min-width: 576px) and (max-width: 992px ) {
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+
+
+

@@ -4,7 +4,12 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+
 } 
+ section {
+    margin-top: 25px;
+ }
+
 
 /* nav styles */
 
@@ -17,6 +22,11 @@ nav {
     display: flex;
     gap: 20px;
 } 
+
+.style-for-g {
+    
+color: palevioletred;
+}
 
 .nav-menu {
     display: flex;
@@ -47,5 +57,61 @@ nav {
 #youtube{
     color:  red;
 
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    gap: 15%;
+    justify-content: center;
+    
+}
+
+.banner-title {
+    color: #0B0223;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.banner-acronym {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.banner-pic img {
+ width: 100%;
+}
+
+.banner-description li {
+        list-style: none;
+        padding-bottom: 15px;
+        
+}
+
+.signin-button {
+    width: 85px;
+    height: 45px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+
+.go-rogue-button {
+    width: 90px;
+    height: 45px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
 }
 
