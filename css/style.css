@@ -184,3 +184,51 @@ text-transform: uppercase;
     
 } 
 
+/* online games sections */
+
+.online-games {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+} 
+
+.online-games img {
+    width: 95%;
+} 
+
+.online-game-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.funny-video {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+
+.online-game-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    
+} 
+
+.game-p-1 {
+    z-index: -1;
+    position: relative;
+    top: 0px;
+}
+
+.game-p-2 {
+    position: relative;
+    z-index: 1;
+    top: -350px;
+}
+
+
