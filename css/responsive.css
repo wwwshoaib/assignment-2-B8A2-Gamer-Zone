@@ -74,7 +74,57 @@
         flex-direction: column-reverse;
     }
 
-}
+}  
+
+/* for making responsive gammer section  */
+
+/* for mobile device */
+
+@media screen and (max-width: 576px) {
+    .gammer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+} 
+
+
+    .more-button {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}   
+
+/* for tablet */
+
+@media screen and (min-width: 576px) and (max-width: 992px ) {
+    .gammer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+} 
+
+
+    .more-button {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}   
+
+
+
+
+
+
 
 
 
