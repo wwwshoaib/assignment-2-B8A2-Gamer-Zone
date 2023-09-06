@@ -307,11 +307,9 @@ text-transform: uppercase;
 
     .action-game {
         display: grid;
-        grid-template-columns: repeat(2, 6fr);
-        justify-items: center;
-        grid-row: auto;
-        flex-direction: row;
-        
+        grid-template-columns: repeat(6, 2fr);
+       
+             
     }
 
 
