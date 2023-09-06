@@ -1,0 +1,24 @@
+/* navbar responsive style starts here  */
+/* for mobile */
+
+@media screen and (max-width: 576px) {
+    nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-logo {
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+}  
+
