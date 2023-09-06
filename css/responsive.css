@@ -44,7 +44,7 @@
     }
     *{
         margin: auto 10px;
-        background-color: lightblue;
+        
 
     }
     
@@ -118,7 +118,87 @@
         justify-content: center;
     }
 
+}    
+
+
+/* for making responsive online games section  */
+
+/* for mobile device */
+
+@media screen and (max-width: 576px) {
+    .online-games {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+} 
+
+
 }   
+
+
+/* for tablet */
+
+@media screen and (min-width: 576px) and (max-width: 992px ) {
+    .online-games {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+} 
+
+}    
+
+
+/* for making responsive play game section  */
+
+/* for mobile device */
+
+@media screen and (max-width: 576px) {
+    .play-game {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+} 
+
+.play-game-1 {
+
+    z-index: -1;
+    position: relative;
+
+}
+
+.play-game-2 {
+    z-index: 1;
+    position: relative;
+    top: -150px;
+    left: 265px;
+} 
+
+
+}   
+
+
+/* for tablet */
+
+@media screen and (min-width: 576px) and (max-width: 992px ) {
+    .play-game {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+} 
+
+}    
+
+
+
+
+
+
 
 
 
